@@ -1,0 +1,157 @@
+body{
+    background-color:#fff0ef;
+}
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Chalkduster;
+    color: #33272a;
+   
+}
+h1:hover{
+    color: rgb(247, 59, 141);
+}
+
+h2{
+    font-family: Chalkduster;
+    color: #33272a}
+
+
+h6{
+    font-family: Chalkduster;
+    color: #33272a}
+
+a{
+     font-weight: bold;
+    text-decoration: none;
+    color: #33272a;
+    font-size:18px; 
+    margin-right: 40px;}
+
+p{
+    font-family: Chalkduster;
+    color: #594a4e ;
+    font-style: inherit;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+strong{
+    color:#33272a;
+   font-weight: bold;}
+
+label{
+     font-family: Chalkduster;;
+    color: #594a4e ;
+    font-style: inherit;
+    text-align: center;
+}
+
+
+.botao {
+  background: #ffc6c7;
+  border-radius: 5px;
+  width: 140px;   
+  height: 50px; 
+  line-height: 50px;
+  margin: 0 15px;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+
+.botao:hover {
+  background: #ff8ba7;
+  box-shadow: inset;
+  border-radius: 10px;
+}
+
+.botao span {
+  position: relative;
+  display: block;
+  width: 140px;  
+  height: 50px;   
+}
+
+.botao span:hover {
+  color: #800002;
+}
+
+
+
+.textao{
+
+font-size: 25px;
+font-family: Chalkduster;;
+color: #594a4e ;
+text-align: justify;
+max-width: 550px;       
+    }
+
+.listap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: center;
+  padding: 0;
+}
+
+.itens {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  margin-top: 0;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Imagem dos itens */
+.imagem {
+  width: 200px;
+  height: 180px;
+  border-radius: 3px;
+  transition: opacity 0.5s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.itens:hover .imagem {
+  opacity: 40%;
+}
+.itens:hover {
+  transform: scale(1.05); /* Aumenta o item */
+}
+
+/* Descrição que sobe */
+.descricao {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: 1s;
+  font-weight: bold;
+  text-align: left;    
+  font-size: 18px;
+  color: #472e35;
+  max-width: 350px;
+}
+
+.itens:hover .descricao {
+  opacity: 1;
+  top: 50%;
+}
+
+    .discricao {
+        top: 100%;
+        left: 50%;
+        max-width: 350px;
+        text-align: left;    
+        font-size: 18px;
+     font-weight: bold;
+        color: #33272a;
+        margin: -50% -50%;}

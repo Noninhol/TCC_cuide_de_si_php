@@ -1,0 +1,51 @@
+#i {
+  height: 100vh; 
+  width: 100vw;  
+  background-size: cover;
+  background-image: url(08.jpg);
+}
+
+#imagem {    
+  height: 100vh; 
+  width: 100vw; 
+  background-size: cover;
+  background-image: url(fundo01.png);
+  background-repeat: repeat-y;
+}
+
+#image {    
+  height: 95vh; 
+  width: 100vw;  
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-image: url(fundo02.png);
+}
+
+#imag {    
+  height: 100vh; 
+  width: 100vw;  
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url(fundo06.png);
+}
+
+#ima {
+  height: 90vh; 
+  width: 100vw;  
+  background-size: cover;
+  background-image: url(fundo05.png);
+}
+
+#imii {
+  height: 90vh;  
+  width: 100vw;  
+  background-size: cover;
+  background-image: url(fundo07.png);
+}
+
+#aim {
+  height: 60vh; 
+  width: 100vw;  
+  background-size: cover;
+  background-image: url(aim.png);
+}

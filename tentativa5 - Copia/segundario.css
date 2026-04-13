@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+
+.botao {
+  background: #ffc6c7;
+  border-radius: 5px;
+  width: 170px;   
+  height: 50px; 
+  line-height: 50px;
+  margin: 0 15px;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+
+.botao:hover {
+  background: #ff8ba7;
+  box-shadow: inset;
+  border-radius: 10px;
+}
+
+.botao span {
+  position: relative;
+  display: block;
+  width: 180px;  
+  height: 50px;   
+}
+
+.botao span:hover {
+  color: #800002;
+}
+
+.textao{
+
+font-size: 18px;
+font-family: Chalkduster;
+color: #594a4e ;
+font-style: inherit;
+text-align: justify;
+max-width: 550px;       
+}
+
+.listap {
+        display: flex;
+        flex-wrap: wrap;       /* Quebra para próxima linha se faltar espaço */
+        gap: 2em;
+        justify-content: center;
+        padding: 0px;
+    }
+.itens {
+        width: 200px;
+        height: 380px;
+        position: relative;
+        margin-top: 0px;
+        overflow: hidden;
+        text-align: center;
+    }
+ .itens:hover .imagem {
+        opacity: 40%;
+    }
+    .itens:hover{
+        transform: scale(1.05); /*aumenta o item*/
+     }
+    
+    .itens:hover .descricao{
+        opacity: 100%;
+        top: 20%;
+        left: 35%;
+
+    }
